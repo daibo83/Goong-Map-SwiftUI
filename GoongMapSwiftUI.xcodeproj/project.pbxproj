@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3C6EB309CB32F5337CB7998 /* Pods_GoongMapSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26F14D5307A1D8124F67E63 /* Pods_GoongMapSwiftUI.framework */; };
+		FE72FA7C23C70DCE00CB22EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72FA7B23C70DCE00CB22EF /* AppDelegate.swift */; };
+		FE72FA7E23C70DCE00CB22EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72FA7D23C70DCE00CB22EF /* SceneDelegate.swift */; };
+		FE72FA8023C70DCE00CB22EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72FA7F23C70DCE00CB22EF /* ContentView.swift */; };
+		FE72FA8223C70DD000CB22EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE72FA8123C70DD000CB22EF /* Assets.xcassets */; };
+		FE72FA8523C70DD000CB22EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE72FA8423C70DD000CB22EF /* Preview Assets.xcassets */; };
+		FE72FA8823C70DD000CB22EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72FA8623C70DD000CB22EF /* LaunchScreen.storyboard */; };
+		FE72FA9023C70ED500CB22EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72FA8F23C70ED500CB22EF /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE8CAFE5044381872556D0A /* Pods-GoongMapSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoongMapSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-GoongMapSwiftUI/Pods-GoongMapSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0A41F02304501606081CA0 /* Pods-GoongMapSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoongMapSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-GoongMapSwiftUI/Pods-GoongMapSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		E26F14D5307A1D8124F67E63 /* Pods_GoongMapSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoongMapSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE72FA7823C70DCE00CB22EF /* GoongMapSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoongMapSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE72FA7B23C70DCE00CB22EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE72FA7D23C70DCE00CB22EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE72FA7F23C70DCE00CB22EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE72FA8123C70DD000CB22EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE72FA8423C70DD000CB22EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE72FA8723C70DD000CB22EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE72FA8923C70DD000CB22EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE72FA8F23C70ED500CB22EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE72FA7523C70DCE00CB22EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C6EB309CB32F5337CB7998 /* Pods_GoongMapSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D3DEF8AA8C388F04C901C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8CAFE5044381872556D0A /* Pods-GoongMapSwiftUI.debug.xcconfig */,
+				AA0A41F02304501606081CA0 /* Pods-GoongMapSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E2741665E2B3A621D9C5E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26F14D5307A1D8124F67E63 /* Pods_GoongMapSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE72FA6F23C70DCE00CB22EF = {
+			isa = PBXGroup;
+			children = (
+				FE72FA7A23C70DCE00CB22EF /* GoongMapSwiftUI */,
+				FE72FA7923C70DCE00CB22EF /* Products */,
+				37D3DEF8AA8C388F04C901C7 /* Pods */,
+				5E2741665E2B3A621D9C5E70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE72FA7923C70DCE00CB22EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE72FA7823C70DCE00CB22EF /* GoongMapSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE72FA7A23C70DCE00CB22EF /* GoongMapSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FE72FA7B23C70DCE00CB22EF /* AppDelegate.swift */,
+				FE72FA7D23C70DCE00CB22EF /* SceneDelegate.swift */,
+				FE72FA7F23C70DCE00CB22EF /* ContentView.swift */,
+				FE72FA8F23C70ED500CB22EF /* MapView.swift */,
+				FE72FA8123C70DD000CB22EF /* Assets.xcassets */,
+				FE72FA8623C70DD000CB22EF /* LaunchScreen.storyboard */,
+				FE72FA8923C70DD000CB22EF /* Info.plist */,
+				FE72FA8323C70DD000CB22EF /* Preview Content */,
+			);
+			path = GoongMapSwiftUI;
+			sourceTree = "<group>";
+		};
+		FE72FA8323C70DD000CB22EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE72FA8423C70DD000CB22EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE72FA7723C70DCE00CB22EF /* GoongMapSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE72FA8C23C70DD000CB22EF /* Build configuration list for PBXNativeTarget "GoongMapSwiftUI" */;
+			buildPhases = (
+				D011E8C40326CE6DC53ECC81 /* [CP] Check Pods Manifest.lock */,
+				FE72FA7423C70DCE00CB22EF /* Sources */,
+				FE72FA7523C70DCE00CB22EF /* Frameworks */,
+				FE72FA7623C70DCE00CB22EF /* Resources */,
+				ECC0BF80FD97530490BE5888 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoongMapSwiftUI;
+			productName = GoongMapSwiftUI;
+			productReference = FE72FA7823C70DCE00CB22EF /* GoongMapSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE72FA7023C70DCE00CB22EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Goong;
+				TargetAttributes = {
+					FE72FA7723C70DCE00CB22EF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FE72FA7323C70DCE00CB22EF /* Build configuration list for PBXProject "GoongMapSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE72FA6F23C70DCE00CB22EF;
+			productRefGroup = FE72FA7923C70DCE00CB22EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE72FA7723C70DCE00CB22EF /* GoongMapSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE72FA7623C70DCE00CB22EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE72FA8823C70DD000CB22EF /* LaunchScreen.storyboard in Resources */,
+				FE72FA8523C70DD000CB22EF /* Preview Assets.xcassets in Resources */,
+				FE72FA8223C70DD000CB22EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D011E8C40326CE6DC53ECC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoongMapSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC0BF80FD97530490BE5888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoongMapSwiftUI/Pods-GoongMapSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoongMapSwiftUI/Pods-GoongMapSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoongMapSwiftUI/Pods-GoongMapSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE72FA7423C70DCE00CB22EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE72FA7C23C70DCE00CB22EF /* AppDelegate.swift in Sources */,
+				FE72FA9023C70ED500CB22EF /* MapView.swift in Sources */,
+				FE72FA7E23C70DCE00CB22EF /* SceneDelegate.swift in Sources */,
+				FE72FA8023C70DCE00CB22EF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE72FA8623C70DD000CB22EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE72FA8723C70DD000CB22EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE72FA8A23C70DD000CB22EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE72FA8B23C70DD000CB22EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE72FA8D23C70DD000CB22EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE8CAFE5044381872556D0A /* Pods-GoongMapSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GoongMapSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = QVC6TMXW26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GoongMapSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goong------------.GoongMapSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE72FA8E23C70DD000CB22EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0A41F02304501606081CA0 /* Pods-GoongMapSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GoongMapSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = QVC6TMXW26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GoongMapSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goong------------.GoongMapSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE72FA7323C70DCE00CB22EF /* Build configuration list for PBXProject "GoongMapSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE72FA8A23C70DD000CB22EF /* Debug */,
+				FE72FA8B23C70DD000CB22EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE72FA8C23C70DD000CB22EF /* Build configuration list for PBXNativeTarget "GoongMapSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE72FA8D23C70DD000CB22EF /* Debug */,
+				FE72FA8E23C70DD000CB22EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE72FA7023C70DCE00CB22EF /* Project object */;
+}
